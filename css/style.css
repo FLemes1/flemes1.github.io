@@ -1,4 +1,4 @@
-* { margin: 0; padding: 0;}
+* { margin: 0; padding: 0; text-decoration: none;}
 
 html, css { height: 100%;}
 
@@ -12,7 +12,7 @@ margin: 20px;
 .profile {
     
     text-align: center;
-    padding: 10px;
+    padding: 5;
 }
 
 .avatar {
@@ -24,8 +24,9 @@ margin: 20px;
 
 h1 a { 
     font-family: 'PT Sans Narrow', sans-serif;
-color: whitesmoke;
+    color: whitesmoke;
 text-decoration: none;
+font-style: oblique
 }
 
 .links-list {
@@ -33,20 +34,19 @@ text-decoration: none;
     display: block;
     color: rgb(54,77,204);
     list-style: none;
-    text-decoration: none;
     font-family: Raleway;
     font-size: 15px;
+    text-decoration: none;
 
 }
 
 .links-list li {
+    
     background: whitesmoke;
     margin: 10px 20px;
     padding: 10px ;
-
     border-radius: 4px;
-
-    
+   
     
 }
 
@@ -59,8 +59,7 @@ text-decoration: none;
 
 .links-list li a span {
 display: block;
-color: grey;
-
+color: darkslategrey;
 
 
 }
