@@ -1,0 +1,65 @@
+* { margin: 0; padding: 0; text-decoration: none;}
+
+html, css { height: 100%;}
+
+body {
+    background: rgb(54,77,204);
+background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(17,34,103,1) 100%);
+color: whitesmoke;
+margin: 20px;
+}
+
+.profile {
+    
+    text-align: center;
+    padding: 5;
+}
+
+.avatar {
+
+    width: 80px;
+    border-radius: 50px;
+    border-style: solid;
+}
+
+h1 a { 
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: whitesmoke;
+text-decoration: none;
+font-style: oblique
+}
+
+.links-list {
+  
+    display: block;
+    color: rgb(54,77,204);
+    list-style: none;
+    font-family: Raleway;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.links-list li {
+    
+    background: whitesmoke;
+    margin: 10px 20px;
+    padding: 10px ;
+    border-radius: 4px;
+   
+    
+}
+
+. .links-list li a {
+
+    
+    display: block;
+    padding: 10px 20px;
+}
+
+.links-list li a span {
+display: block;
+color: darkslategrey;
+
+
+}
